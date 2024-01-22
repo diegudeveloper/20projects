@@ -1,5 +1,8 @@
-var hamburger = document.querySelector(".hamburger--boring");
+let containerNav = document.querySelector('.containerNav');
+let hamburger = document.querySelector('.hamburger');
 
 hamburger.addEventListener("click", function() {
-    hamburger.classList.toggle("is-active");
+    containerNav.classList.toggle('active');
 });
+
+

@@ -23,7 +23,7 @@ header .menu {
     position: relative;
 }
 
-header .menu nav {
+header .menu .containerNav {
     position: absolute;
     margin-top: 20vh;
     left: 0;
@@ -32,14 +32,26 @@ header .menu nav {
     background: #f12711;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f5af19, #f12711);
+    transform: translateY(-270%);
+    transition: transform 1s ease;
+    z-index: 1000;
 }
+
+header .menu .containerNav.active {
+    position: absolute;
+    margin-top: 20vh;
+    left: 0;
+    transform: translateY(0);
+    transition: transform 0.8s ease;
+}
+
 header .menu nav ul {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-
 }
+
 header .menu nav ul li {
     list-style: none;
     padding: 25px 5px;
