@@ -20,7 +20,7 @@ header .menu {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    position: relative;
+
 }
 
 header .menu .containerNav {
@@ -60,7 +60,7 @@ header .menu nav ul li {
 
 header .menu nav ul li a {
     text-decoration: none;
-    color: #ffff;
+    color: #000;
 }
 
 header .menu nav ul .logoMenuMovil  {
@@ -70,10 +70,39 @@ header .menu nav ul .logoMenuMovil  {
 
 /* Section Hero */
 
+.hero .containerHero {
+    background-image: url(/Img/hero/hero05.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .containerHero .capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 100%;
+	background-color: rgba(74, 86, 104, 0.8);
+    z-index: 1;
+}
+
 .hero .containerHero .containerText {
     width: 100%;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.hero .containerHero .containerText .containerTitle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero .containerHero .containerText .containerTitle h1 {
+    z-index: 3;
 }
