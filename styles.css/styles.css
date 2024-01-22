@@ -19,5 +19,39 @@ header .menu {
     height: 20vh;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 
+header .menu nav {
+    position: absolute;
+    margin-top: 20vh;
+    left: 0;
+    display: block;
+    width: 100%;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+}
+header .menu nav ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+header .menu nav ul li {
+    list-style: none;
+    padding: 25px 5px;
+    border-bottom: 1px solid #ffff;
+}
+
+header .menu nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+header .menu nav ul .logoMenuMovil  {
+    margin: 0 auto;
+    padding: 20px 0;
 }
