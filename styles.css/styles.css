@@ -6,7 +6,7 @@
 
 header {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1980px;
     height: 20vh;
     background: #f12711;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
@@ -71,7 +71,7 @@ header .menu nav ul .logoMenuMovil  {
 /* Section Hero */
 
 .hero .containerHero {
-    background-image: url(/Img/hero/hero05.jfif);
+    background-image: url(/Img/hero/hero02.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,14 +95,18 @@ header .menu nav ul .logoMenuMovil  {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
     z-index: 2;
 }
 
 .hero .containerHero .containerText .containerTitle {
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 
 .hero .containerHero .containerText .containerTitle h1 {
     z-index: 3;
+    color: #ffff;
+    font-size: 18px;
 }
