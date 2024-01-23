@@ -32,35 +32,23 @@
         <div class="capa"></div>
         <div class="containerText">
           <div class="containerTitle">
-            <h1>Descubre 20 mini proyectos únicos diseñados para perfeccionar tus habilidades en HTML, CSS y JavaScript.</h1>
+            <h3 class="titleH2">20 Mini Proyectos</h3>
+            <h1 class="titleH1">Descubre 20 mini proyectos únicos diseñados para perfeccionar tus habilidades en HTML, CSS y JavaScript.</h1>
           </div>
         </div>
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="/main.js"></script>
     <script>
-        var hamburger = document.querySelector(".hamburger");
-        hamburger.addEventListener("click", function() {
-          hamburger.classList.toggle("is-active");
-        });
-      </script>
+      var hamburger = document.querySelector(".hamburger");
+      let containerNav = document.querySelector('.containerNav');
+
+      hamburger.addEventListener("click", function() {
+        hamburger.classList.toggle("is-active");
+        containerNav.classList.toggle('active');
+      });
+    </script>
     
 </body>
 </html>

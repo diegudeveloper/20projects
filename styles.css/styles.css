@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: system-ui, "Roboto", 'Open Sans';
+}
+
 header {
     width: 100%;
     max-width: 1980px;
@@ -105,8 +109,17 @@ header .menu nav ul .logoMenuMovil  {
     position: relative;
 }
 
+.hero .containerHero .containerText .containerTitle h3 {
+    color: #f5af19;
+    padding-bottom: 1rem;
+}
+
 .hero .containerHero .containerText .containerTitle h1 {
     z-index: 3;
     color: #ffff;
     font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    font-weight: 400;
+    
 }
