@@ -21,9 +21,10 @@ El menú se activa mediante un checkbox y una etiqueta de icono. Al hacer clic e
 
 ## Vista Previa
 
-![img02](https://github.com/diegudeveloper/20projects/assets/62949966/7bc02d9f-8b0e-4dd7-bcc3-767027fd692f)
 
-![img01](https://github.com/diegudeveloper/20projects/assets/62949966/1b262b96-db7e-4c72-8d23-dcd07bf3e7f2)
+![img02_jt0nec_c_scale,w_200](https://github.com/diegudeveloper/20projects/assets/62949966/cb3e1a29-531c-456f-8830-1b17b7f37f8e)
+
+![img01_pf5gnh_c_scale,w_200](https://github.com/diegudeveloper/20projects/assets/62949966/83f0dae1-67b7-4376-b16c-17107ee70a71)
 
 ## Configuración y Ejecución
 
