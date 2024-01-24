@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+header img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+}
+
+header input {
+    display: none;
+}
+
+header label {
+    padding: 30px;
+    font-size: 25px;
+    display: block;
+    display: none;
+    color: #fff;
+}
+
+header .menu {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}
+
+header .menu ul {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .menu ul li {
+    list-style: none;
+    line-height: 70px;
+    padding-right: 35px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+header .menu ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+@media screen and (max-width: 700px) {
+    header .menu {
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        position: absolute;
+        align-items: flex-start;
+        padding: 5px 30px;
+        transform: translateX(-100%);
+        transition: all 1s ease;
+        background-color: #000;
+        opacity: 0.9; 
+    }
+
+    header .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .menu ul li {
+        width: 90%;
+        border-bottom: 1px solid #fff;
+    }
+
+    header .menu ul li a {
+        color: #fff;
+    }
+
+
+    header label {
+        display: block;
+        color: #fff;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #btn-menu:checked ~ .menu {
+        transform: translateX(0)
+    }
+}
