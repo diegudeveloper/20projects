@@ -160,7 +160,6 @@ header .menu nav ul .logoMenuMovil  {
     width: 100%;
     height: auto;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -174,13 +173,17 @@ header .menu nav ul .logoMenuMovil  {
     margin: 1.5rem 0;
 }
 
-.containerFull .card .textCard button {
-    /* flex: 1 0 auto; */
-    width: 45%;
+.containerFull .card .textCard a {
+    text-decoration: none;
+}
+
+.containerFull .card .textCard a button {
+    flex: 1 0 auto;
     padding: 5px;
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 } 
 
