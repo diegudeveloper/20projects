@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
 header {
     width: 100%;
     height: 80px;
@@ -70,11 +75,19 @@ header .menu ul li a:hover {
     width: 100%;
     height: calc(100vh - 80px);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .hero .containerHero .containerImage {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .containerHero .containerImage .card {
     max-width: 250px;
     height: 280px;
     box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
@@ -85,6 +98,16 @@ header .menu ul li a:hover {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.hero .containerHero .containerText {
+    width: 60%;
+    height: auto;
+}
+
+.hero .containerHero .containerText p {
+    padding: 55px;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -108,6 +131,7 @@ header .menu ul li a:hover {
     header .menu ul {
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-start;
     }
 
     header .menu ul li {
@@ -131,5 +155,34 @@ header .menu ul li a:hover {
 
     #btn-menu:checked ~ .menu {
         transform: translateX(0)
+    }
+
+    /* section Hero*/
+
+    .hero .containerHero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero .containerHero .containerImage {
+        width: 100%;
+        height: auto;
+        padding: 3rem 0.5rem;
+    }
+
+    .hero .containerHero .containerImage .card {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero .containerHero .containerText {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .containerHero .containerText p {
+        padding: 10px;
+        font-size: 14px;
     }
 }
