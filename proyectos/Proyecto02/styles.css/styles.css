@@ -29,6 +29,33 @@ body {
     border: 1px solid #222;
 }
 
+.container_daily .card_desta img {
+    display: block;
+    width: 280px;
+    height: 160px;
+    transition: all 0.5s ease;
+}
+
+.container_daily .card_desta h2 {
+    text-align: center;
+    padding: 3%;
+    font-size: 12px;
+}
+
+.container_daily .card_desta p {
+    width: 30%;
+    padding: 3px;
+    font-size: 16px;
+    line-height: 2;
+    color: #fff;
+    margin: 0 auto;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+}
+
 .container_daily .card_desta .content {
     position: absolute;
     top:-130%; left:0;
@@ -36,8 +63,7 @@ body {
     width:100%;
     text-align: center;
     background:rgba(0,0,0,.7);
-    padding:2rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     transition: all 0.5s ease;
     display: flex;
     justify-content: center;
@@ -64,12 +90,7 @@ body {
     text-decoration: none;
 }
 
-.container_daily .card_desta img {
-    display: block;
-    width: 280px;
-    height: 160px;
-    transition: all 0.5s ease;
-}
+
 
 .container_daily .card_desta .btn-button {
     text-decoration: none;
