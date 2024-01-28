@@ -5,7 +5,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .container_daily {
     width: 80%;
     max-width: 1170px;
@@ -15,7 +14,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-
 .container_daily .card_desta {
     width: 260px;
     height: 220px;
@@ -28,20 +26,17 @@ body {
     background-color: #fff;
     border: 1px solid #222;
 }
-
 .container_daily .card_desta img {
     display: block;
     width: 280px;
     height: 160px;
     transition: all 0.5s ease;
 }
-
 .container_daily .card_desta h2 {
     text-align: center;
     padding: 3%;
     font-size: 12px;
 }
-
 .container_daily .card_desta p {
     width: 30%;
     padding: 3px;
@@ -55,7 +50,6 @@ body {
     position: absolute;
     top: 0;
 }
-
 .container_daily .card_desta .content {
     position: absolute;
     top:-130%; left:0;
@@ -69,11 +63,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .container_daily .card_desta:hover .content {
     top: 0;
 }
-
 .container_daily .card_desta .content h3 {
     text-decoration: none;
     padding: 5px 10px;
@@ -83,15 +75,11 @@ body {
     border: 0.1rem solid #FF6600;
     cursor: pointer;
 }
-
 .container_daily .card_desta .content h3 a {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
 }
-
-
-
 .container_daily .card_desta .btn-button {
     text-decoration: none;
     padding: 12px 30px;
