@@ -132,6 +132,7 @@ header .menu nav ul .logoMenuMovil  {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .containerFull .card {
@@ -140,7 +141,7 @@ header .menu nav ul .logoMenuMovil  {
     /* height: 450px; */
     height: auto;
     border: 1px solid rgba(251, 177, 59, 0.200);
-    margin: 0 auto;
+    margin: 1.5rem auto;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
