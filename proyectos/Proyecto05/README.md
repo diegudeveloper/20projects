@@ -4,7 +4,9 @@ Este ejemplo muestra una Ventana Modal que al hacer click aparece dicha ventana 
 
 ## Vista Previa
 
-![127 0 0 1_5501_proyectos_Proyecto04_menuSide html (1)](https://github.com/diegudeveloper/20projects/assets/62949966/c63f3940-10b7-4671-8d40-680ff86d4f4f)
+![modalDisplay02](https://github.com/diegudeveloper/20projects/assets/62949966/416331a4-44da-4869-ba0c-46e166521c73)
+
+![modalDisplay01](https://github.com/diegudeveloper/20projects/assets/62949966/314ea4df-9233-482c-906a-cb4c9001ee95)
 
 ## Estructura del Proyecto
 
@@ -13,18 +15,16 @@ La estructura del proyecto es simple y consta de archivos HTML y CSS:
 Proyecto/
 |-- index.html
 |-- styles.css
-|-- img/
-|   |-- menuLateral.jpg
 |-- README.md
 
 
 ## Uso
 
-Abre el archivo `index.html` en tu navegador para ver el menu lateral sin javascript. Puedes personalizar el contenido y los estilos según tus necesidades.
+Abre el archivo `index.html` en tu navegador para ver la ventana Modal sin javascript. Puedes personalizar el contenido y los estilos según tus necesidades.
 
 ## Estilos CSS
 
-El archivo `styles.css` contiene los estilos para el menu lateral y la página en general. Siéntete libre de ajustar estos estilos para adaptarlos a tus preferencias.
+El archivo `styles.css` contiene los estilos para la Ventana Modal y la página en general. Siéntete libre de ajustar estos estilos para adaptarlos a tus preferencias.
 
 ## Contribuciones
 
