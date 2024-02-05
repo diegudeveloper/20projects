@@ -74,11 +74,15 @@ header .menu nav ul .logoMenuMovil  {
 
 /* Section Hero */
 
+.hero {
+    top: 20vh;
+}
+
 .hero .containerHero {
     background-image: url(/Img/hero/hero02.jfif);
-    background-position: center;
+    /* background-position: 100% 100%; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
 }
 
