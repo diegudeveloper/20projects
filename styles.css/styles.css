@@ -141,7 +141,7 @@ header .menu nav ul .logoMenuMovil  {
 
 .containerFull .card {
     width: 90%;
-    max-width: 320px;
+    max-width: 200px;
     /* height: 450px; */
     height: auto;
     border: 1px solid rgba(251, 177, 59, 0.200);
@@ -176,9 +176,9 @@ header .menu nav ul .logoMenuMovil  {
 .containerFull .card .textCard h2 {
     width: 100%;
     color: #222;
-    padding: 10px;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: .5rem 0;
+    font-size: 14px;
 }
 
 .containerFull .card .textCard a {
@@ -187,11 +187,12 @@ header .menu nav ul .logoMenuMovil  {
 
 .containerFull .card .textCard a button {
     flex: 1 0 auto;
-    padding: 5px;
-    margin-bottom: 1.5rem;
+    padding: 0 5px;
+    margin-bottom: .8rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
+    font-size: 10px;
 } 
 
