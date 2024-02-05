@@ -76,6 +76,7 @@ header .menu nav ul .logoMenuMovil  {
 
 .hero {
     top: 20vh;
+    max-width: 1980px;
 }
 
 .hero .containerHero {
@@ -116,12 +117,13 @@ header .menu nav ul .logoMenuMovil  {
 .hero .containerHero .containerText .containerTitle h3 {
     color: #f5af19;
     padding-bottom: 1rem;
+    font-size: 38px;
 }
 
 .hero .containerHero .containerText .containerTitle h1 {
     z-index: 3;
     color: #ffff;
-    font-size: 18px;
+    font-size: 40px;
     letter-spacing: 3px;
     line-height: 1.7;
     font-weight: 400;
@@ -131,6 +133,7 @@ header .menu nav ul .logoMenuMovil  {
 
 .containerFull {
     width: 100%;
+    max-width: 1980px;
     height: 100;
     margin: 3rem 0;
     display: flex;
@@ -150,7 +153,7 @@ header .menu nav ul .logoMenuMovil  {
     flex-direction: column;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
+    /* box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%); */
 }
 
 .containerFull .card .img_card {
@@ -196,3 +199,18 @@ header .menu nav ul .logoMenuMovil  {
     font-size: 10px;
 } 
 
+@media (width <= 768px) {
+    .hero .containerHero .containerText .containerTitle h3 {
+        font-size: 18px;
+    }
+    
+    .hero .containerHero .containerText .containerTitle h1 {
+        font-size: 20px;
+    }
+}
+
+@media (width >= 1024px) {
+    .containerFull .card {
+        max-width: 200px;
+    }
+}
