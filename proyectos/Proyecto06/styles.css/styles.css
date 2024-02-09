@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     overflow: hidden;
 }
 .button1, .button2, .button3 {
@@ -22,9 +21,7 @@ body {
     margin: 2rem;
     flex-direction: column;
 }
-
 /*bUTTONS*/
-
 /*Button 01*/
 button,
 button:focus {
@@ -40,12 +37,10 @@ button:focus {
   transition: 0.2s;
   transition-timing-function: linear;
 }
-
 button:active {
   transform: translate(0, 0);
   border-bottom: 2px solid rgb(50, 50, 50);
 }
-
 /*Button 02*/
 .button02 {
     font-family: inherit;
@@ -62,42 +57,34 @@ button:active {
     border-radius: 15px;
     font-weight: 1000;
 }
-
 .button02 span {
 display: block;
 margin-left: 0.3em;
 transition: all 0.3s ease-in-out;
 }
-
 .button02 svg {
 display: block;
 transform-origin: center center;
 transition: transform 0.3s ease-in-out;
 }
-
 .button02:hover {
 background: #000;
 }
-
 .button02:hover .svg-wrapper {
 transform: scale(1.25);
 transition: 0.5s linear;
 }
-
 .button02:hover svg {
 transform: translateX(1.2em) scale(1.1);
 fill: #fff;
 }
-
 .button02:hover span {
 opacity: 0;
 transition: 0.5s linear;
 }
-
 .button02:active {
 transform: scale(0.95);
 }
-  
 /*button 03*/
 .button {
     --main-focus: #2d8cf0;
@@ -117,17 +104,14 @@ transform: scale(0.95);
     border-radius: 10px;
     overflow: hidden;
 }
-
 .button, .button__icon, .button__text {
 transition: all 0.3s;
 }
-
 .button .button__text {
 transform: translateX(22px);
 color: var(--font-color);
 font-weight: 600;
 }
-
 .button .button__icon {
 position: absolute;
 transform: translateX(109px);
@@ -138,32 +122,25 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .button .svg {
 width: 20px;
 fill: var(--main-color);
 }
-
 .button:hover {
 background: var(--bg-color);
 }
-
 .button:hover .button__text {
 color: transparent;
 }
-
 .button:hover .button__icon {
 width: 148px;
 transform: translateX(0);
 }
-
 .button:active {
 transform: translate(3px, 3px);
 box-shadow: 0px 0px var(--main-color);
 }
-
 /*media queri*/
- 
 @media (width <= 768px) {
     .containButton {
         width: 90%;
@@ -173,5 +150,4 @@ box-shadow: 0px 0px var(--main-color);
         overflow: hidden;
         flex-direction: column;
     }
-   
 }
