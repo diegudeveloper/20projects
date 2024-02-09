@@ -211,6 +211,6 @@ header .menu nav ul .logoMenuMovil  {
 
 @media (width >= 1024px) {
     .containerFull .card {
-        max-width: 200px;
+        max-width: 250px;
     }
 }
