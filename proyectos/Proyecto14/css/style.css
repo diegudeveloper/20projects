@@ -4,9 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+body {
+    width: 100%;
+    height: auto;
+}
 header {
   width: 90%;
+  max-width: 1200px;
   height: 10vh;
   margin-left: auto;
   margin-right: auto;
@@ -37,48 +41,44 @@ header .menu li a {
   font-size: 18px;
   text-decoration: none;
 }
+@media (width <= 768px) {
+    header .menu li a {
+        font-size: 14px;
+    }
+}
 header .cart {
   flex: 1;
   display: flex;
   justify-content: flex-end;
 }
-
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .presentacion {
   width: 90%;
+  max-width: 1200px;
   height: 80vh;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   align-items: center;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  .presentacion {
-    /* Styles */
-    flex-direction: column;
-  }
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion {
-    /* Styles */
-    flex-direction: column;
-  }
+@media (width <= 767px) {
+    .presentacion  {
+        flex-wrap: wrap;
+        display: block;
+    }
 }
 .presentacion .main-text {
-  /*width: 50%;*/
   flex: 1;
   padding: 50px 0px 0px 0px;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  .presentacion .main-text {
-    /* Styles */
-    text-align: center;
-  }
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion .main-text {
-    /* Styles */
-    padding-top: 10px;
-  }
+@media (width <= 768px) {
+    .presentacion .main-text {
+        text-align: center;
+    }
 }
 .presentacion .main-text .intro-text h1 {
   font-size: 44px;
@@ -87,91 +87,74 @@ header .cart {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-device-width: 375px) {
-  .presentacion .main-text .intro-text h1 {
-    /* Styles */
-    font-size: 35px;
-  }
-}
 .presentacion .main-text .intro-text p {
-  margin-top: 5px;
-  font-size: 22px;
-  color: #585772;
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion .main-text .intro-text p {
-    /* Styles */
     font-size: 20px;
-  }
 }
 .presentacion .botones {
-  padding: 50px 0px 0px 0px;
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion .botones {
-    /* Styles */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    padding: 50px 0px 0px 0px;
 }
 .presentacion .botones .b-letf {
-  background: #c36cbb;
-  width: 150px;
-  height: 45px;
-  cursor: pointer;
-  font-size: 16px;
-  border: none;
-  color: white;
-  margin: 30px 0px 0px 30px;
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion .botones .b-letf {
-    /* Styles */
-    width: 120px;
-    margin-top: 0;
-  }
+    background: #c36cbb;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin: 30px 0px 0px 30px;
 }
 .presentacion .botones .b-right {
-  border: 2px solid #c36cbb;
-  background: transparent;
-  color: #c36cbb;
-  width: 150px;
-  height: 45px;
-  cursor: pointer;
-  font-size: 16px;
-}
-@media only screen and (max-device-width: 375px) {
-  .presentacion .botones .b-right {
-    /* Styles */
-    width: 120px;
-  }
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
 }
 .presentacion .cover {
-  /*width: 50%;*/
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  height: 60vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
 }
-.presentacion .cover img {
-  height: 100%;
-  filter: drop-shadow(0px 5px 3px black);
-  animation: drop 1.5s ease;
+  .presentacion .cover img {
+    height: 100%;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+@media (width <= 768px) {
+    .presentacion .main-text .intro-text h1 {
+        font-size: 28px;
+    }
+    .presentacion .main-text .intro-text p {
+        font-size: 14px;
+        color: #585772;
+    }
+    .presentacion .botones .b-letf {
+        width: 120px;
+        margin-top: 0;
+    }
+    .presentacion .botones {
+        padding-top: 25px;
+    }
+    .presentacion .botones .b-right {
+        width: 105px;
+        height: 35px;
+    }
+    .presentacion .botones .b-letf {
+        width: 105px;
+        height: 35px;
+    }
+    .presentacion .cover img {
+        height: 90%;
+    }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .presentacion .cover img {
-    /* Styles */
     height: 80%;
   }
 }
-@media only screen and (max-device-width: 375px) {
-  .presentacion .cover img {
-    /* Styles */
-    height: 70%;
-  }
-}
-
 .btn {
   width: 15%;
   display: flex;
@@ -181,27 +164,30 @@ header .cart {
 }
 @media only screen and (max-device-width: 768px) {
   .btn {
-    /* Styles */
     bottom: 5%;
-    right: 50%;
-    width: 50%;
+    right: 28%;
+    width: 30%;
     transform: translate(50%, 5%);
   }
 }
 @media only screen and (max-device-width: 375px) {
   .btn {
-    /* Styles */
     height: 10vh;
     bottom: 100px;
   }
 }
 @media only screen and (max-device-width: 360px) {
   .btn {
-    /* Styles */
     bottom: 10px;
   }
 }
-
+@media (width <= 429px) {
+    .btn {
+        bottom: -15%;
+        right: 50%;
+        padding-top: 1rem;
+    }
+} 
 .big {
   position: absolute;
   top: 0px;
@@ -212,12 +198,10 @@ header .cart {
 }
 @media only screen and (max-device-width: 375px) {
   .big {
-    /* Styles */
     height: 70%;
     display: none;
   }
 }
-
 .medium {
   position: absolute;
   top: 30%;
@@ -228,11 +212,9 @@ header .cart {
 }
 @media only screen and (max-device-width: 375px) {
   .medium {
-    /* Styles */
     display: none;
   }
 }
-
 .small {
   position: absolute;
   bottom: 0%;
@@ -241,7 +223,6 @@ header .cart {
 }
 @media only screen and (max-device-width: 375px) {
   .small {
-    /* Styles */
     display: none;
   }
 }
