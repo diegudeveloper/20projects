@@ -62,8 +62,6 @@ main .filtro_container .container_picture #container div img {
     animation-duration: 5s;
 }
 
-
-
 #laptop:checked ~ #container .audi, #laptop:checked ~ #container .movil, #laptop:checked ~ #container .pc {
     display: none;
     
@@ -88,4 +86,11 @@ main .filtro_container .container_picture #container div img {
 
 #pc:checked ~ #container .animate_animated {
     animation-duration: 5s;
+}
+
+/*media queri*/
+@media (width <= 426px) {
+    main .filtro_container .container_picture #container div {
+        width: 45%;
+    }
 }

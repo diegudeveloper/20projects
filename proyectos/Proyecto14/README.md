@@ -18,7 +18,7 @@ Proyecto/
 
 ## Uso
 
-Abre el archivo `index.html` en tu navegador para el ejercicio de de una Landing Page. Puedes personalizar el contenido y los estilos según tus necesidades.
+Abre el archivo `index.html` en tu navegador para el ejercicio de una Landing Page. Puedes personalizar el contenido y los estilos según tus necesidades.
 
 ## Estilos CSS
 
