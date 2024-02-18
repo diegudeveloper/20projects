@@ -1,0 +1,91 @@
+main .filtro_container .container_picture input {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+
+main .filtro_container .container_picture {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+main .filtro_container .container_picture h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main .filtro_container .container_picture #container {
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left:auto ;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .filtro_container .container_picture #container div {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: all 1s ease;
+}
+
+main .filtro_container .container_picture #container div img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+#Todo:checked ~ #container .audi, .laptop, .movil .pc, .animate_animated {
+    animation-duration: 5s;
+}
+
+#audi:checked ~ #container .laptop, #audi:checked ~ #container .movil, #audi:checked ~ #container .pc {
+    display: none;
+    
+}
+
+#audi:checked ~ #container .animate_animated {
+    animation-duration: 5s;
+}
+
+
+
+#laptop:checked ~ #container .audi, #laptop:checked ~ #container .movil, #laptop:checked ~ #container .pc {
+    display: none;
+    
+}
+
+#laptop:checked ~ #container .animate_animated {
+    animation-duration: 5s;
+}
+
+#movil:checked ~ #container .audi, #movil:checked ~ #container .laptop, #movil:checked ~ #container .pc {
+    display: none;
+
+}
+
+#movil:checked ~ #container .animate_animated {
+    animation-duration: 5s;
+}
+
+#pc:checked ~ #container .audi, #pc:checked ~ #container .laptop, #pc:checked ~ #container .movil {
+    display: none;
+}
+
+#pc:checked ~ #container .animate_animated {
+    animation-duration: 5s;
+}
