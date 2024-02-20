@@ -89,3 +89,13 @@ body {
 	opacity: 1;
 	transition-delay: 400ms;
 }
+
+@media (width <= 768px) {
+	.container {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		gap: 0.2em;
+		width: 300px;
+		height: 500px;
+		transition: all 400ms;
+	}
+}
