@@ -207,6 +207,53 @@ header .menu nav ul .logoMenuMovil  {
     font-size: 10px;
 } 
 
+/*about*/
+
+.containerAbout {
+    width: 100%;
+    max-width: 1980px;
+    height: 100;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #494C5A;
+    flex-wrap: wrap;
+}
+
+.containerAbout .TextH2 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #f1f1f1;
+    padding: 3rem 0;
+    font-size: 42px;
+}
+
+.containerAbout .containerImagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAbout .containerImagen img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.containerAbout .containerText {
+    width: 50%;
+    padding-right: 4rem;
+}
+
+.containerAbout .containerText p {
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
 @media (width <= 768px) {
     .hero .containerHero .containerText .containerTitle h3 {
         font-size: 18px;
