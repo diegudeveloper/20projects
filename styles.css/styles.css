@@ -36,7 +36,7 @@ header .menu .containerNav {
     background: #f12711;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f5af19, #f12711);
-    transform: translateY(-270%);
+    transform: translateX(-200%);
     transition: transform 1s ease;
     z-index: 1000;
 }
@@ -60,6 +60,7 @@ header .menu nav ul li {
     list-style: none;
     padding: 25px 5px;
     border-bottom: 1px solid #ffff;
+    padding-left: 40px;
 }
 
 header .menu nav ul li a {
