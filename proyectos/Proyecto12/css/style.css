@@ -18,6 +18,7 @@ body {
     position: absolute;
     bottom: -150;
     animation: burbujas 3s linear infinite ;
+    border-radius: 50%;
 }
 .burbuja:nth-child(1){
     width: 80px;
