@@ -207,6 +207,12 @@ header .menu nav ul .logoMenuMovil  {
 } 
 
 @media (width <= 768px) {
+    header .menu .containerNav {
+        transform: translateY(0);
+    }
+    header .menu nav ul .logoMenuMovil {
+        display: none;
+    }
     .hero .containerHero .containerText .containerTitle h3 {
         font-size: 18px;
     }
