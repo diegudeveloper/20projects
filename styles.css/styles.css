@@ -207,18 +207,38 @@ header .menu nav ul .logoMenuMovil  {
 } 
 
 @media (width <= 768px) {
-    header .menu .containerNav {
-        transform: translateY(0);
-    }
-    header .menu nav ul .logoMenuMovil {
-        display: none;
-    }
     .hero .containerHero .containerText .containerTitle h3 {
         font-size: 18px;
     }
     
     .hero .containerHero .containerText .containerTitle h1 {
         font-size: 20px;
+    }
+}
+
+@media (width >= 768px) {
+    header .menu .containerNav {
+        transform: translateY(0);
+        position: initial;
+        margin-top: 0;
+        background: none;
+    }
+    header .menu nav ul .logoMenuMovil {
+        display: none;
+    }
+    header .menu .btnMenu {
+        display: none;
+    }
+    header .menu nav ul {
+        flex-direction: row;
+        justify-content: end;
+        gap: 1rem;
+        height: 100%;
+        align-items: center;
+    }
+    header .menu nav ul li {
+        border-bottom: none;
+        cursor: pointer;
     }
 }
 
