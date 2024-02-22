@@ -254,6 +254,60 @@ header .menu nav ul .logoMenuMovil  {
     color: #f1f1f1;
 }
 
+.containerAbout .logoGithub {
+    width: 100px;
+    padding: 0.5rem;
+} 
+
+.containerAbout .containerSocial {
+    
+    border: 1px solid #f1f1f1;
+    border-radius: 0.5rem;
+    margin: 3rem 2rem;
+}
+
+.containerAbout .containerSocial a {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerAbout .containerSocial a:hover {
+    background-color: #222;
+    border-radius: 0.5rem;
+}
+
+.containerAbout .containerSocial p {
+    color: #f1f1f1;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+.image {
+    animation: animate .6s linear alternate-reverse infinite;
+    transition: .6s ease;
+    cursor: pointer;
+}
+  
+@keyframes animate {
+from {
+    transform: scale(1);
+}
+
+to {
+    transform: scale(1.09);
+}
+}
+
+
+
+
+
+
+
 @media (width <= 768px) {
     .hero .containerHero .containerText .containerTitle h3 {
         font-size: 18px;
