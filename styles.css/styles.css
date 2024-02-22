@@ -241,12 +241,13 @@ header .menu nav ul .logoMenuMovil  {
     width: 250px;
     height: 250px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 0.5rem
 }
 
 .containerAbout .containerText {
     width: 50%;
-    padding-right: 4rem;
+    padding-right: 10rem;
+    text-align: justify;
 }
 
 .containerAbout .containerText p {
@@ -263,7 +264,7 @@ header .menu nav ul .logoMenuMovil  {
     
     border: 1px solid #f1f1f1;
     border-radius: 0.5rem;
-    margin: 3rem 2rem;
+    margin: 5rem 2rem;
 }
 
 .containerAbout .containerSocial a {
@@ -293,19 +294,14 @@ header .menu nav ul .logoMenuMovil  {
 }
   
 @keyframes animate {
-from {
-    transform: scale(1);
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.09);
+    }
 }
-
-to {
-    transform: scale(1.09);
-}
-}
-
-
-
-
-
 
 
 @media (width <= 768px) {
@@ -315,6 +311,30 @@ to {
     
     .hero .containerHero .containerText .containerTitle h1 {
         font-size: 20px;
+    }
+
+    .containerAbout {
+        flex-direction: column;
+    }
+
+    .containerAbout .containerText {
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 0;
+        padding-top: 2rem;
+    }
+
+    .containerAbout .containerImagen img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .containerAbout .containerSocial {
+        margin-top: 2.5rem;
+    }
+
+    .containerAbout .TextH2 {
+        font-size: 32px;
     }
 }
 
