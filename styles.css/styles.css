@@ -303,6 +303,13 @@ header .menu nav ul .logoMenuMovil  {
     }
 }
 
+.containerMe {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
 
 @media (width <= 768px) {
     .hero .containerHero .containerText .containerTitle h3 {
