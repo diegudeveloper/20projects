@@ -349,6 +349,10 @@ header .menu nav ul .logoMenuMovil  {
     gap: 0.8rem;
 }
 
+.containerFooter .containerSocial p {
+    color: #f1f1f1;
+}
+
 .containerFooter .icons {
     width: 2rem;
     
@@ -398,6 +402,10 @@ header .menu nav ul .logoMenuMovil  {
         rotate: 0deg;
         width: 9rem;
         height: 10rem;
+    }
+
+    .containerFooter .icons {
+        width: 1.3rem;   
     }
 
 }
