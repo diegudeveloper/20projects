@@ -306,7 +306,7 @@ header .menu nav ul .logoMenuMovil  {
 .containerMe {
     width: 70%;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
     display: flex;
 }
 
@@ -329,6 +329,29 @@ header .menu nav ul .logoMenuMovil  {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*footer*/
+
+.containerFooter {
+    width: 100%;
+    height: auto;
+    background-color: #494C5A;
+}
+
+.containerFooter .containerSocial {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.containerFooter .icons {
+    width: 2rem;
+    
 }
 
 
