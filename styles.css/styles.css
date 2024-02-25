@@ -146,8 +146,7 @@ header .menu nav ul .logoMenuMovil  {
 .containerFull .card {
     width: 90%;
     max-width: 200px;
-    /* height: 450px; */
-    height: auto;
+    height: 265px;
     border: 1px solid rgba(251, 177, 59, 0.200);
     margin: 1.5rem auto;
     display: flex;
@@ -164,12 +163,13 @@ header .menu nav ul .logoMenuMovil  {
 
 .containerFull .card .img_card img {
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 .containerFull .card .textCard {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -198,13 +198,13 @@ header .menu nav ul .logoMenuMovil  {
 
 .containerFull .card .textCard a button {
     flex: 1 0 auto;
-    padding: 0 5px;
-    margin-bottom: .8rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
     font-size: 10px;
+    background-color: transparent;
+    border: none;
 } 
 
 /*about*/
@@ -438,6 +438,6 @@ header .menu nav ul .logoMenuMovil  {
 
 @media (width >= 1024px) {
     .containerFull .card {
-        max-width: 250px;
+        max-width: 223px;
     }
 }
