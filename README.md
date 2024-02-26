@@ -40,15 +40,15 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 
 ## Uso
 
-Clona y abre el archivo `index.html` en tu navegador para ver el proyecto general y en el veras cada ejercicio. El miniproyecto esta realizado para verlo en cualquier dispositivo.
+Para explorar el miniproyecto, clona el repositorio y abre el archivo index.html en tu navegador. Este archivo te proporcionará una vista general del proyecto, mostrando cada ejercicio de manera individual. El diseño del miniproyecto ha sido desarrollado para ser accesible desde cualquier dispositivo, garantizando una experiencia óptima.
 
 ## Estilos CSS
 
-El archivo `styles.css` contiene los estilos para la página en general. Siéntete libre de ajustar estilos para adaptarlos a tus preferencias.
+Dentro del proyecto, el archivo styles.css alberga los estilos que afectan a la página en su totalidad. Siéntete libre de personalizar estos estilos según tus preferencias para adaptar el proyecto a tu gusto y necesidades.
 
 ## Contribuciones
 
-Si encuentras algún error o tienes sugerencias de mejora, ¡no dudes en abrir un problema o enviar una solicitud de extracción!
+Si encuentras algún error o tienes sugerencias para mejorar el proyecto, te invito cordialmente a realizar un fork y enviar un Pull Request con tus propuestas. Valoro y aprecio todas las contribuciones, ya que ayudarán a potenciar este miniproyecto, convirtiéndolo en una herramienta aún más útil y efectiva. ¡Tu participación es fundamental para el crecimiento y la calidad continua del proyecto!
 
 ## Licencia
 
