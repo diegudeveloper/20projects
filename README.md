@@ -10,6 +10,8 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 
 ¡Diviértete explorando y creando con estos ejercicios! Estoy seguro de que cada uno de ellos contribuirá a tu crecimiento como desarrollador web. ¡Adelante y sumérgete en el fascinante mundo del desarrollo web con estos desafiantes ejercicios!
 
+![html-css](https://github.com/diegudeveloper/20projects/assets/62949966/d5362ccf-cf7f-4762-a36a-aa496f009ff2)
+
 ## Tabla de Proyectos
 
 | Proyecto                                          | URL                                                                                                    |
@@ -36,4 +38,18 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 | Ejercicio de Formulario                              | [Proyecto 20](https://github.com/diegudeveloper/20projects/tree/main/proyectos/proyecto20)            |
 
 
+## Uso
 
+Clona y abre el archivo `index.html` en tu navegador para ver el proyecto general y en el veras cada ejercicio. El miniproyecto esta realizado para verlo en cualquier dispositivo.
+
+## Estilos CSS
+
+El archivo `styles.css` contiene los estilos para la página en general. Siéntete libre de ajustar estilos para adaptarlos a tus preferencias.
+
+## Contribuciones
+
+Si encuentras algún error o tienes sugerencias de mejora, ¡no dudes en abrir un problema o enviar una solicitud de extracción!
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](./LICENSE) para más detalles.
