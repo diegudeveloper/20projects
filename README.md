@@ -10,7 +10,14 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 
 ¡Diviértete explorando y creando con estos ejercicios! Estoy seguro de que cada uno de ellos contribuirá a tu crecimiento como desarrollador web. ¡Adelante y sumérgete en el fascinante mundo del desarrollo web con estos desafiantes ejercicios!
 
-![html-css](https://github.com/diegudeveloper/20projects/assets/62949966/d5362ccf-cf7f-4762-a36a-aa496f009ff2)
+<details>
+    <summary>Imagen Modo Pc</summary>
+
+![projects](https://github.com/diegudeveloper/20projects/assets/62949966/c8e09abe-a6e2-4d15-90d5-9b42bdea1727)
+
+</details>
+
+
 
 ## Tabla de Proyectos
 
@@ -37,6 +44,8 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 | Ejercicio de TimeLine                               | [Proyecto 19](https://github.com/diegudeveloper/20projects/tree/main/proyectos/proyecto19)            |
 | Ejercicio de Formulario                              | [Proyecto 20](https://github.com/diegudeveloper/20projects/tree/main/proyectos/proyecto20)            |
 
+
+![html-css](https://github.com/diegudeveloper/20projects/assets/62949966/d5362ccf-cf7f-4762-a36a-aa496f009ff2)
 
 ## Uso
 
