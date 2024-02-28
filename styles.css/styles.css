@@ -66,6 +66,7 @@ header .menu nav ul li {
 header .menu nav ul li a {
     text-decoration: none;
     color: #000;
+    font-weight: bold;
 }
 
 header .menu nav ul .logoMenuMovil  {
