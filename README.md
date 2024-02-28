@@ -13,7 +13,8 @@ Estos 20 ejercicios son solo el comienzo de tu viaje en el desarrollo web. Más 
 <details>
     <summary>Imagen Modo Pc</summary>
 
-![projects](https://github.com/diegudeveloper/20projects/assets/62949966/c8e09abe-a6e2-4d15-90d5-9b42bdea1727)
+
+![projects_vdndgc_c_scale,w_979 (1)](https://github.com/diegudeveloper/20projects/assets/62949966/50fcd0fd-8582-46f8-ac12-9ec151f5a525)
 
 </details>
 
