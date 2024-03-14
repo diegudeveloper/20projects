@@ -31,7 +31,13 @@ const db = getDatabase();
 export function incrementarContador(ejercicioIndex) {
   const contadorRef = ref(db, 'contadores/ejercicio' + ejercicioIndex + '/vistas');
   transaction(contadorRef, (currentCount) => {
-    // Incrementar el contador o inicializarlo en 1 si no existe
+    // Incrementar el contador
     return (currentCount || 0) + 1;
+  })
+  .then(() => {
+    console.log('Contador incrementado correctamente');
+  })
+  .catch((error) => {
+    console.error('Error al incrementar el contador:', error);
   });
 }
