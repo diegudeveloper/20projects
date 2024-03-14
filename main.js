@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Obtener todos los botones y contadores
+/*document.addEventListener('DOMContentLoaded', function() {
+    Obtener todos los botones y contadores
     const botones = document.querySelectorAll('.textCard .boton');
 
-    // Cargar contadores desde el almacenamiento local
+    Cargar contadores desde el almacenamiento local
     for (let i = 0; i < botones.length; i++) {
         const contadorGuardado = localStorage.getItem('contador-' + i);
         if (contadorGuardado !== null) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Agregar un event listener para cada botón
+    Agregar un event listener para cada botón
     botones.forEach((boton) => {
         boton.addEventListener('click', function() {
             const indice = parseInt(this.getAttribute('data-indice'));
@@ -20,4 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('contador-' + indice, contadorActual);
         });
     });
-});
+});*/
+
+import { getDatabase, ref, transaction } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
+
+// Obtener la referencia de la base de datos
+const db = getDatabase();
+
+// Función para incrementar el contador en Firebase
+export function incrementarContador(ejercicioIndex) {
+  const contadorRef = ref(db, 'contadores/ejercicio' + ejercicioIndex + '/vistas');
+  transaction(contadorRef, (currentCount) => {
+    // Incrementar el contador o inicializarlo en 1 si no existe
+    return (currentCount || 0) + 1;
+  });
+}
