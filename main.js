@@ -25,7 +25,9 @@
 import { getDatabase, ref, transaction } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
 
 // Obtener la referencia de la base de datos
-const db = getDatabase();
+const db = firebase.database();
+const contadorRef = db.ref('contadores/ejercicio' + ejercicioIndex + '/vistas');
+
 
 // Función para incrementar el contador en Firebase
 export function incrementarContador(ejercicioIndex) {
