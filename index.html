@@ -7,8 +7,8 @@
     <link href="styles.css/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css/hamburgers.min.css">
 
-    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js"></script>
-    <script type="module" src="/main.js">
+    
+    <script type="module">
       // Importar las funciones necesarias desde los SDK que necesitas
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
@@ -459,7 +459,7 @@
 
     </footer>
 
-    <script src="main.js"></script>
+    <script src="/main.js" type="module"></script>
     <script>
       var hamburger = document.querySelector(".hamburger");
       let containerNav = document.querySelector('.containerNav');
